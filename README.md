@@ -20,8 +20,8 @@
 1. `git config --list` : 현재 깃 설정 정보 확인
 2. 새로운 값 입력안될때 터미널에서 `Ctrl+C` 또는 `Q`
 3. 위 1번에서 깃 설정정보에 name,Email이 내 정보가 아닐때
-4. git config --global user.email "hongseeun049@gmail.com" 이메일 설정
-5. git config --global user.name "hongseeun" 이름 설정(메일아이디 동일)
+4. `git config --global user.email "hongseeun049@gmail.com"` 이메일 설정
+5. `git config --global user.name "hongseeune"` 이름 설정(메일아이디 동일)
 6.`git config --list` 위 4~5번 설정 올바르게 됐는지 확인 
 ---
 7. `git init` 현재 폴더를 작업 디렉터리 폴더로 연결, 폴더경로 옆에 **master**표시 생기면 성공!
@@ -47,3 +47,6 @@
 *`<시작태그 속성="값" 속성="값"></닫기태그>`
 * 시작태그부터 닫기태그까지 한번에 **요소**란 명칭으로 부른다.
 * 속성은 시작태그에만 쓰고 닫기태그에는 속성을 쓰지 않는다..
+*`파일명.html`
+파일명은 **영문대소문자=숫자 조합**으로만 작성한다.
+*HTML 작성의 시작은 항상 **구조태그**로 해야한다!`html:5`
